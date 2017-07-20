@@ -1,0 +1,125 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  margin-left: 10px;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  vertical-align: middle;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: seashell;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+}
+
+#logo {
+flex-grow: 1;
+resize: horizontal;
+overflow: auto;
+}
+
+.div {
+    display: block;
+}
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+.content{
+  text-align: center;
+}
+#mission .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+  }
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+#featured-tea .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+  }
+
+.tea-store {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+  align-content: center;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  padding: 5px;
+  display: block;
+}
+
+.tea span {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  display: block;
+}
+
+#locations {
+  padding-top: 700px;
+}
+#locations .content {
+    margin: auto;
+    width: 1200px;
+    height: 1000px;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    padding-top: 45px;
+  }
+
+  .address {
+    width: 300px;
+    height: auto;
+    background-color: black;
+  }
